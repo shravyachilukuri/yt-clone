@@ -1,0 +1,36 @@
+@import "../../_base.scss";
+
+.login{
+    position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   
+     
+    img{
+        height:100px;
+        width:100px;
+        object-fit: contain;
+    }
+
+    &__page{
+        display: flex;
+        flex-direction: column;
+        background-color: $black-sec;
+        padding:2rem 4rem;
+        align-items: center;
+
+        button{
+            padding:0.2rem;
+            margin-bottom: 0.5rem;
+            background-color: rgb(219, 212, 212);
+            border: none;
+            border-radius: 5px;
+            &:focus{
+                outline:none;
+            }
+        }
+        
+
+    }
+}

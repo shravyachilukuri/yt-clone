@@ -4,7 +4,7 @@ import "./_comments.scss";
 const Comments = () => {
     return (
         <div>
-            comment
+            comment needs to be added
         </div>
     )
 }
